@@ -1,0 +1,39 @@
+{
+  "name": "nojestscomponent",
+  "version": "1.0.0",
+  "description": "My first component library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NoJest/NoJestsInComponents.git"
+  },
+  "keywords": [
+    "Component",
+    "Library"
+  ],
+  "author": "Justin Thomasson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoJest/NoJestsInComponents/issues"
+  },
+  "homepage": "https://github.com/NoJest/NoJestsInComponents#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup": "^4.24.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "typescript": "^5.6.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
